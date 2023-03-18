@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Books</title>
+  <style>
+    body {
+      background-color: #f2f2f2;
+    }
+
+    ol {
+      margin: 0;
+      padding: 0;
+    }
+
+    li {
+      margin: 20px 0;
+      background-color: #fff;
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+      transition: box-shadow 0.3s ease-in-out;
+    }
+
+    li:hover {
+      box-shadow: 0 12px 20px rgba(0, 0, 0, 0.3);
+    }
+
+    h2 {
+      font-size: 24px;
+      font-weight: bold;
+      margin: 0;
+      padding: 10px;
+      border-bottom: 1px solid #ccc;
+    }
+
+    p {
+      font-size: 18px;
+      margin: 0;
+      padding: 10px;
+    }
+
+    img {
+      display: block;
+      margin: 10px auto;
+      border: 1px solid #ccc;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      transition: box-shadow 0.3s ease-in-out;
+    }
+
+    img:hover {
+      box-shadow: 0 8px 12px rgba(0, 0, 0, 0.3);
+    }
+
+    a {
+      display: inline-block;
+      margin: 10px;
+      padding: 10px 20px;
+      background-color: #4CAF50;
+      color: #fff;
+      font-size: 16px;
+      text-decoration: none;
+      border-radius: 5px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      transition: box-shadow 0.3s ease-in-out;
+    }
+
+    a:hover {
+      box-shadow: 0 8px 12px rgba(0, 0, 0, 0.3);
+    }
+  </style>
+</head>
+<body>
+  <div>
+    <ol>
+      {% for book in books %}
+        <li>
+          <h2>{{ book.title }}</h2>
+          <p>{{ book.description }}</p>
+          <img src="{{ book.image.url }}" alt="{{ book.title }}" height="400">
+          <p>Published on: {{ book.created_date }}</p>
+          <a href="{{ book.url }}">By</a>
+        </li>
+      {% endfor %}
+    </ol>
+  </div>
+</body>
+</html>
