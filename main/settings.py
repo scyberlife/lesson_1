@@ -38,7 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'book',
+    'book', 'Car',
 ]
 SETTINGS_PATH = os.path.dirname(os.path.dirname(__file__))
 MIDDLEWARE = [

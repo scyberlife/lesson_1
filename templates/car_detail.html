@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Car Detail</title>
+</head>
+<body>
+<center>
+    <button><a href="/car_list/">Подробнее</a></button>
+    <h1><b>{{ car_detail.title }}</b></h1>
+    <p><i>{{ car_detail.description }}</i></p>
+    <img src="{{ car_detail.image.url }}" alt="" width="450" height="350">
+    <p><b><i>{{ car_detail.car_type }}</i></b></p>
+    <p>{{ car_detail.created_date }}</p>
+    <p><b>{{ car_detail.cost }}</b></p>
+    <iframe src="{{ car_detail.video }}" frameborder="0" width="640" height="420"></iframe>
+</center>
+</body>
+</html>
