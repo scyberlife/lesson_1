@@ -13,7 +13,10 @@ class CarShop(models.Model):
     car_type = models.CharField(max_length=100, choices=CAR_TYPE)
     created_date = models.DateTimeField(auto_now_add=True)
     cost = models.PositiveIntegerField()
-    url = models.URLField()
+    video = models.URLField(null=True)
+    service_available = models.BooleanField(default=False)
+    service_description = models.TextField(default=False)
+    service_cost = models.PositiveIntegerField(default=False)
 
     def __str__(self):
         return self.title

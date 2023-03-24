@@ -1,12 +1,18 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Car Detail</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
 </head>
 <body>
+{% include 'header.html' %}
 <center>
-    <button><a href="/car_list/">Подробнее</a></button>
+    <button class="btn btn-primary btn-lg" style="background-color: #f00; border-color: #00f;">
+  <a href="/car_list/{{i.id}}" style="color: #fff; text-decoration: none;">Назад</a>
+</button>
+
     <h1><b>{{ car_detail.title }}</b></h1>
     <p><i>{{ car_detail.description }}</i></p>
     <img src="{{ car_detail.image.url }}" alt="" width="450" height="350">
@@ -14,6 +20,9 @@
     <p>{{ car_detail.created_date }}</p>
     <p><b>{{ car_detail.cost }}</b></p>
     <iframe src="{{ car_detail.video }}" frameborder="0" width="640" height="420"></iframe>
+    <p>{{ car_detail.service_description }}</p>
+    <p>{{ car_detail.service_available }}</p>
 </center>
+{% include 'footer.html' %}
 </body>
 </html>

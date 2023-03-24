@@ -1,20 +1,30 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Car List</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
 </head>
 <body>
+{% include 'header.html' %}
 <div>
     <ul>
         {% for i in car_object %}
+            <center>
         <li>
         <h2><i>{{ i.title }}</i></h2>
-        <img src="{{ i.image.url }}" alt="" width="300" height="300">
-        <button><a href="/car_list/{{i.id}}">Поподробнее</a></button>
+        <img src="{{ i.image.url }}" alt="" width="" height="500">
+        <button class="btn btn-primary btn-lg" style="background-color: #f00; border-color: #00f;">
+  <a href="/car_list/{{i.id}}" style="color: #fff; text-decoration: none;">Подробнее</a>
+</button>
+
         </li>
+            </center>
         {% endfor %}
     </ul>
 </div>
+{% include 'footer.html' %}
 </body>
 </html>
+
