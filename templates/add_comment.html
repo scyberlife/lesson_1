@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Add Comment</title>
+</head>
+<body>
+    <h1>Add Comment</h1>
+    <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Add Comment</title>
+    <style>
+        body {
+            background-color: #121212;
+            font-family: Arial, sans-serif;
+            color: #fff;
+        }
+    h1 {
+        text-align: center;
+        font-size: 36px;
+        margin-top: 50px;
+    }
+
+    form {
+        margin: 50px auto;
+        width: 50%;
+    }
+
+    label {
+        display: block;
+        margin-top: 20px;
+        font-size: 24px;
+    }
+
+    input[type="text"], textarea {
+        width: 100%;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        margin-top: 5px;
+        font-size: 20px;
+    }
+
+    button[type="submit"] {
+        display: block;
+        margin: 20px auto;
+        padding: 10px 20px;
+        background-color: #ff0055;
+        border: none;
+        border-radius: 5px;
+        font-size: 24px;
+        color: #fff;
+        cursor: pointer;
+    }
+
+    button[type="submit"]:hover {
+        background-color: #ff5588;
+    }
+</style>
+
+</head>
+
+
+
+

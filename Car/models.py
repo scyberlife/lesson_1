@@ -20,3 +20,31 @@ class CarShop(models.Model):
 
     def __str__(self):
         return self.title
+
+class CommentCar(models.Model):
+    RATING = (
+        ('*', '*'),
+        ('**', '**'),
+        ('***', '***'),
+        ('****', '****'),
+        ('*****', '*****')
+    )
+    car_choice_comment = models.ForeignKey(CarShop, on_delete=models.CASCADE, related_name="comment_object")
+    text = models.TextField()
+    rate_stars = models.CharField(max_length=100, choices=RATING)
+
+def __str__(self):
+    return self.rate_stars
+
+
+class CommentPeople(models.Model):
+    RATING_CHOICES = (
+        ('*', '*'),
+        ('**', '**'),
+        ('***', '***'),
+        ('****', '****'),
+        ('*****', '*****')
+    )
+    car_choice_comment = models.ForeignKey(CarShop, on_delete=models.CASCADE, related_name="comment_people", null=True)
+    text = models.TextField(null=True)
+    rate_stars = models.CharField(null=True, max_length=5, choices=RATING_CHOICES)

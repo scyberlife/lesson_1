@@ -9,19 +9,43 @@
 <body>
 {% include 'header.html' %}
 <center>
-    <button class="btn btn-primary btn-lg" style="background-color: #f00; border-color: #00f;">
-  <a href="/car_list/{{i.id}}" style="color: #fff; text-decoration: none;">Назад</a>
+
+    <button class="btn btn-primary btn-lg" style="background-color: blueviolet; border-color: #00f;">
+  <a href="/car_list/" style="color: #fff; text-decoration: none;">Назад</a>
+</button>
+    <button class="btn btn-primary btn-lg" style="background-color: blueviolet; border-color: #00f;">
+  <a href="/car_list/{{object.id}}/update/" style="color: #fff; text-decoration: none;">Редактировать</a>
+</button>
+    <button class="btn btn-primary btn-lg" style="background-color: blueviolet; border-color: #00f;">
+  <a href="/car_list/{{object.id}}/delete/" style="color: #fff; text-decoration: none;">Удалить</a>
 </button>
 
-    <h1><b>{{ car_detail.title }}</b></h1>
-    <p><i>{{ car_detail.description }}</i></p>
-    <img src="{{ car_detail.image.url }}" alt="" width="450" height="350">
-    <p><b><i>{{ car_detail.car_type }}</i></b></p>
-    <p>{{ car_detail.created_date }}</p>
-    <p><b>{{ car_detail.cost }}</b></p>
-    <iframe src="{{ car_detail.video }}" frameborder="0" width="640" height="420"></iframe>
-    <p>{{ car_detail.service_description }}</p>
-    <p>{{ car_detail.service_available }}</p>
+
+    <h1><b>{{ object.title }}</b></h1>
+    <p><i>{{ object.description }}</i></p>
+    <img src="{{ object.image.url }}" alt="" width="450" height="350">
+
+    <p>{% for j in object.comment_object.all %}
+        <tr>
+            <tr>{{ j.text }}</tr> <tr>{{ j.rate_stars }}</tr>  <tr>{{ j.created_date }}</tr>
+        </tr>
+       {% endfor %}
+    </p>
+
+    <p><b><i>{{ object.car_type }}</i></b></p>
+    <p>{{ object.created_date }}</p>
+    <p><b>{{ object.cost }}</b></p>
+    <iframe src="{{ object.video }}" frameborder="0" width="640" height="420"></iframe>
+    <p>{{ object.service_description }}</p>
+    <p>{{ object.service_available }}</p>
+    <p>
+        {% for l in object.comment_people.all %}
+        <div style="background: blueviolet;">
+            <p>{{ l.text }}</p>
+            <p>{{ l.rate_stars }}</p>
+        </div>
+        {% endfor %}
+    </p>
 </center>
 {% include 'footer.html' %}
 </body>

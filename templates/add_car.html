@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Add Car</title>
+    <style>
+        body {
+            background-color: #000;
+            color: #fff;
+            font-family: Arial, sans-serif;
+        }
+        h1 {
+            text-align: center;
+            font-size: 2.5rem;
+            color: #8f00ff;
+            margin-top: 1rem;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 2rem;
+        }
+        input[type="text"], input[type="number"], input[type="file"], select {
+            background-color: #222;
+            color: #fff;
+            border: 1px solid #8f00ff;
+            padding: 0.5rem;
+            margin-top: 0.5rem;
+            width: 100%;
+        }
+        input[type="submit"] {
+            background-color: #8f00ff;
+            color: #fff;
+            border: none;
+            padding: 0.5rem 1rem;
+            margin-top: 1rem;
+            cursor: pointer;
+        }
+        label {
+            margin-top: 0.5rem;
+            font-size: 1.2rem;
+        }
+    </style>
+</head>
+<body>
+    <h1>Add Cars</h1>
+    <form action="/add_car/" method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <input type="submit" value="Add">
+    </form>
+</body>
+</html>
+
+
+
+
+{#    <style>#}
+{#        body {#}
+{#            font-family: Arial, sans-serif;#}
+{#            background-color: #f2f2f2;#}
+{#        }#}
+{#        h1 {#}
+{#            color: #333;#}
+{#            text-align: center;#}
+{#            margin-top: 50px;#}
+{#        }#}
+{#        form {#}
+{#            width: 50%;#}
+{#            margin: 50px auto;#}
+{#            background-color: #fff;#}
+{#            padding: 20px;#}
+{#            border-radius: 10px;#}
+{#            box-shadow: 0 0 10px rgba(0,0,0,0.2);#}
+{#        }#}
+{#        input[type="text"], input[type="number"], input[type="file"], textarea {#}
+{#            width: 100%;#}
+{#            padding: 10px;#}
+{#            margin-top: 10px;#}
+{#            margin-bottom: 20px;#}
+{#            border-radius: 5px;#}
+{#            border: 1px solid #ccc;#}
+{#            font-size: 16px;#}
+{#            font-family: Arial, sans-serif;#}
+{#        }#}
+{#        input[type="submit"] {#}
+{#            background-color: #4CAF50;#}
+{#            color: #fff;#}
+{#            padding: 10px 20px;#}
+{#            border: none;#}
+{#            border-radius: 5px;#}
+{#            cursor: pointer;#}
+{#            font-size: 16px;#}
+{#        }#}
+{#        input[type="submit"]:hover {#}
+{#            background-color: #3e8e41;#}
+{#        }#}
+{#        label {#}
+{#            font-size: 16px;#}
+{#            font-weight: bold;#}
+{#            display: block;#}
+{#            margin-bottom: 10px;#}
+{#        }#}
+{#        .errorlist {#}
+{#            color: #f00;#}
+{#            margin-bottom: 10px;#}
+{#        }#}
+{#    </style>#}
+
+{#    <h1>Add Cars</h1>#}
+{#    <form action="/add-car/" method="post" enctype="multipart/form-data">#}
+{#        {% csrf_token %}#}
+{#        <label for="make">Make:</label>#}
+{#        {{form.make}}#}
+{#        {% if form.make.errors %}#}
+{#            <div class="errorlist">#}
+{#                {% for error in form.make.errors %}#}
+{#                    <p>{{ error }}</p>#}
+{#                {% endfor %}#}
+{#            </div>#}
+{#        {% endif %}#}
+{#    <label for="model">Model:</label>#}
+{#    {{form.model}}#}
+{#    {% if form.model.errors %}#}
+{#        <div class="errorlist">#}
+{#            {% for error in form.model.errors %}#}
+{#                <p>{{ error }}</p>#}
+{#            {% endfor %}#}
+{#        </div>#}
+{#    {% endif %}#}
+{##}
+{#    <label for="year">Year:</label>#}
+{#    {{form.year}}#}
+{#    {% if form.year.errors %}#}
+{#        <div class="errorlist">#}
+{#            {% for error in form.year.errors %}#}
+{#                <p>{{ error }}</p>#}
+{#            {% endfor %}#}
+{#        </div>#}
+{#    {% endif %}#}
+{##}
+{#    <label for="color">Color:</label>#}
+{#    {{form.color}}#}
+{#    {% if form.color.errors %}#}
+{#        <div class="errorlist">#}
+{#            {% for error in form.color.errors %}#}
+{#                <p>{{ error }}</p>#}
+{#            {% endfor %}#}
+{#        </div>#}
+{#    {% endif %}#}
+{##}
+{#    <label for="image">Image:</label>#}
+{#    {{form.image}}#}
+{#    {% if form.image.errors %}#}
+{#        <div class="errorlist">#}
+{#            {% for error in form.image.errors %}#}
+{#                <p>{{ error }}</p>#}
+{#            {% endfor %}#}
+{#        </div>#}
+{#    {% endif %}#}
+{##}
+{#    <input type="submit" value="Add Car">#}
+{#</form>#}
+{#</body>#}
+{#</html>#}
