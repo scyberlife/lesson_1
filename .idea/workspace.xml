@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3e8578a8-64c8-4977-b779-7b81dba2ca15" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/cb19c979-4150-4bbf-972f-dc6c18287460.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/test_2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom_users/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom_users/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom_users/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom_users/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom_users/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom_users/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom_users/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom_users/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom_users/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom_users/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parser_app/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parser_app/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parser_app/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parser_app/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parser_app/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parser_app/migrations/0002_mashinakg_delete_manaskg.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parser_app/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parser_app/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parser_app/parser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parser_app/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parser_app/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parser_app/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/car_lists.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/start_parsing.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/user_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/bin/normalizer" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/beautifulsoup4-4.12.0.dist-info/AUTHORS" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/beautifulsoup4-4.12.0.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/beautifulsoup4-4.12.0.dist-info/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/beautifulsoup4-4.12.0.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/beautifulsoup4-4.12.0.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/beautifulsoup4-4.12.0.dist-info/REQUESTED" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/beautifulsoup4-4.12.0.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/beautifulsoup4-4.12.0.dist-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/bs4/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/bs4/builder/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/bs4/builder/_html5lib.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/bs4/builder/_htmlparser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/bs4/builder/_lxml.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/bs4/css.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/bs4/dammit.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/bs4/diagnose.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/bs4/element.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/bs4/formatter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/bs4/tests/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/bs4/tests/test_builder.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/bs4/tests/test_builder_registry.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/bs4/tests/test_css.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/bs4/tests/test_dammit.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/bs4/tests/test_docs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/bs4/tests/test_element.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/bs4/tests/test_formatter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/bs4/tests/test_html5lib.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/bs4/tests/test_htmlparser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/bs4/tests/test_lxml.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/bs4/tests/test_navigablestring.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/bs4/tests/test_pageelement.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/bs4/tests/test_soup.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/bs4/tests/test_tag.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/bs4/tests/test_tree.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/certifi-2022.12.7.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/certifi-2022.12.7.dist-info/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/certifi-2022.12.7.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/certifi-2022.12.7.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/certifi-2022.12.7.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/certifi-2022.12.7.dist-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/certifi/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/certifi/__main__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/certifi/cacert.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/certifi/core.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/certifi/py.typed" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/charset_normalizer-3.1.0.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/charset_normalizer-3.1.0.dist-info/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/charset_normalizer-3.1.0.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/charset_normalizer-3.1.0.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/charset_normalizer-3.1.0.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/charset_normalizer-3.1.0.dist-info/entry_points.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/charset_normalizer-3.1.0.dist-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/charset_normalizer/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/charset_normalizer/api.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/charset_normalizer/assets/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/charset_normalizer/cd.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/charset_normalizer/cli/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/charset_normalizer/cli/normalizer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/charset_normalizer/constant.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/charset_normalizer/legacy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/charset_normalizer/md.cpython-39-darwin.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/charset_normalizer/md.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/charset_normalizer/md__mypyc.cpython-39-darwin.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/charset_normalizer/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/charset_normalizer/py.typed" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/charset_normalizer/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/charset_normalizer/version.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/idna-3.4.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/idna-3.4.dist-info/LICENSE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/idna-3.4.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/idna-3.4.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/idna-3.4.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/idna/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/idna/codec.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/idna/compat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/idna/core.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/idna/idnadata.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/idna/intranges.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/idna/package_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/idna/py.typed" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/idna/uts46data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/requests-2.28.2.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/requests-2.28.2.dist-info/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/requests-2.28.2.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/requests-2.28.2.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/requests-2.28.2.dist-info/REQUESTED" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/requests-2.28.2.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/requests-2.28.2.dist-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/requests/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/requests/__version__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/requests/_internal_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/requests/adapters.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/requests/api.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/requests/auth.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/requests/certs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/requests/compat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/requests/cookies.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/requests/exceptions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/requests/help.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/requests/hooks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/requests/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/requests/packages.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/requests/sessions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/requests/status_codes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/requests/structures.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/requests/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/soupsieve-2.4.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/soupsieve-2.4.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/soupsieve-2.4.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/soupsieve-2.4.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/soupsieve-2.4.dist-info/licenses/LICENSE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/soupsieve/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/soupsieve/__meta__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/soupsieve/css_match.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/soupsieve/css_parser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/soupsieve/css_types.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/soupsieve/pretty.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/soupsieve/py.typed" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/soupsieve/util.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/urllib3-1.26.15.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/urllib3-1.26.15.dist-info/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/urllib3-1.26.15.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/urllib3-1.26.15.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/urllib3-1.26.15.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/urllib3-1.26.15.dist-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/urllib3/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/urllib3/_collections.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/urllib3/_version.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/urllib3/connection.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/urllib3/connectionpool.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/urllib3/contrib/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/urllib3/contrib/_appengine_environ.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/urllib3/contrib/_securetransport/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/urllib3/contrib/_securetransport/bindings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/urllib3/contrib/_securetransport/low_level.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/urllib3/contrib/appengine.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/urllib3/contrib/ntlmpool.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/urllib3/contrib/pyopenssl.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/urllib3/contrib/securetransport.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/urllib3/contrib/socks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/urllib3/exceptions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/urllib3/fields.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/urllib3/filepost.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/urllib3/packages/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/urllib3/packages/backports/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/urllib3/packages/backports/makefile.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/urllib3/packages/six.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/urllib3/poolmanager.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/urllib3/request.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/urllib3/response.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/urllib3/util/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/urllib3/util/connection.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/urllib3/util/proxy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/urllib3/util/queue.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/urllib3/util/request.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/urllib3/util/response.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/urllib3/util/retry.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/urllib3/util/ssl_.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/urllib3/util/ssl_match_hostname.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/urllib3/util/ssltransport.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/urllib3/util/timeout.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/urllib3/util/url.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.9/site-packages/urllib3/util/wait.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Car/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Car/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Car/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Car/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore.txt" beforeDir="false" afterPath="$PROJECT_DIR$/gitignore.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/header.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2N99kEr1doQGHbG2DXEn7YTy6wB" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager">
+    <configuration name="test_2" type="Python.DjangoServer" factoryName="Django server">
+      <module name="test_2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3e8578a8-64c8-4977-b779-7b81dba2ca15" name="Changes" comment="" />
+      <created>1679065571268</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1679065571268</updated>
+      <workItem from="1679065574189" duration="13914000" />
+      <workItem from="1679136256444" duration="23255000" />
+      <workItem from="1679574736646" duration="600000" />
+      <workItem from="1679666020766" duration="12837000" />
+      <workItem from="1679988601894" duration="22860000" />
+      <workItem from="1680230405131" duration="9046000" />
+      <workItem from="1680261134805" duration="16763000" />
+      <workItem from="1680422845707" duration="248000" />
+      <workItem from="1680423105921" duration="14000" />
+      <workItem from="1680425347166" duration="8470000" />
+      <workItem from="1680606107133" duration="26000" />
+      <workItem from="1680689083629" duration="5249000" />
+      <workItem from="1680751598609" duration="3231000" />
+      <workItem from="1681036833192" duration="17899000" />
+      <workItem from="1681062438812" duration="2768000" />
+      <workItem from="1681224450860" duration="9100000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

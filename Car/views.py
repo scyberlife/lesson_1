@@ -63,7 +63,7 @@ class CreateCarView(CreateView):
 
 
 class UpdateCarView(UpdateView):
-    model = CarShop
+    model = models.CarShop
     form_class = CarForm
     template_name = 'update_car.html'
     success_url = reverse_lazy('car_list')
@@ -116,3 +116,16 @@ class AddCommentView(CreateView):
 
     def get_success_url(self):
         return reverse('car_detail', kwargs={'pk': self.kwargs['pk']})
+
+class Search(ListView):
+    template_name = "car_list.html"
+    context_object_name = 'car'
+    paginate_by = 5
+
+    def get_queryset(self):
+        return models.CarShop.objects.filter(title__icontains=self.request.GET.get('q'))
+
+    def get_context_data(self, *, object_list=None, **kwargs):
+        context = super().get_context_data(**kwargs)
+        context['q'] = self.request.GET.get('q')
+        return context

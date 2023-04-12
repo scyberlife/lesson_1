@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register</title>
+</head>
+<body>
+<form method="post" enctype="multipart/form-data" class="railway">
+<div class="stripes-block">
+<div class="line"></div>
+</div>
+<h3>Регистрация</h3>
+<div class="form-group">
+{% csrf_token %}
+  {{form.as_p}}
+</div>
+<div class="submit-block">
+<div class="submit-button">
+<i class="fa fa-train" aria-hidden="true"></i><br>
+<input type="submit" value="Зарегистрироватся">
+    <h3><a href="/login/" class="qwerty">Уже есть логин?</a></h3>
+</div>
+</div>
+</form>
+</body>
+</html>
+
